@@ -7,12 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="test_api" />
+        <module name="basic_auth" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Spring_Security" options="-parameters" />
+      <module name="basic_auth" options="-parameters" />
       <module name="test_api" options="-parameters" />
     </option>
   </component>
