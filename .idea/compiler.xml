@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="test_api" />
         <module name="basic_auth" />
+        <module name="url_narrowing" />
       </profile>
     </annotationProcessing>
   </component>
@@ -16,6 +17,7 @@
       <module name="Spring_Security" options="-parameters" />
       <module name="basic_auth" options="-parameters" />
       <module name="test_api" options="-parameters" />
+      <module name="url_narrowing" options="-parameters" />
     </option>
   </component>
 </project>
