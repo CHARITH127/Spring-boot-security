@@ -7,6 +7,7 @@
         <module>test_api</module>
         <module>basic_auth</module>
         <module>url_narrowing</module>
+        <module>system_users</module>
     </modules>
 
     <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-parent -->

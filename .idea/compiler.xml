@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="test_api" />
+        <module name="system_users" />
         <module name="basic_auth" />
         <module name="url_narrowing" />
       </profile>
@@ -16,6 +17,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Spring_Security" options="-parameters" />
       <module name="basic_auth" options="-parameters" />
+      <module name="system_users" options="-parameters" />
       <module name="test_api" options="-parameters" />
       <module name="url_narrowing" options="-parameters" />
     </option>
